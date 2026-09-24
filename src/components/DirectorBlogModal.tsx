@@ -19,6 +19,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { Language } from '../types';
+import { getAssetUrl } from '../utils/assets';
 
 interface DirectorBlogModalProps {
   isOpen: boolean;
@@ -192,7 +193,7 @@ export const DirectorBlogModal: React.FC<DirectorBlogModalProps> = ({
           <div className="flex items-start gap-4">
             <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white/10 border-2 border-amber-400/40 p-1 shrink-0 flex items-center justify-center shadow-lg overflow-hidden bg-slate-800">
               <img 
-                src="/images/ekeb/director.jpg"
+                src={getAssetUrl('/images/ekeb/director.jpg')}
                 alt={content.name}
                 referrerPolicy="no-referrer"
                 onError={(e) => {
@@ -283,7 +284,7 @@ export const DirectorBlogModal: React.FC<DirectorBlogModalProps> = ({
             <div className="space-y-5">
               <div className="bg-gradient-to-br from-slate-50 via-sky-50/30 to-blue-50/50 border border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row gap-4 sm:gap-5 items-center sm:items-start shadow-xs">
                 <img 
-                  src="/images/ekeb/director.jpg"
+                  src={getAssetUrl('/images/ekeb/director.jpg')}
                   alt={content.name}
                   referrerPolicy="no-referrer"
                   onError={(e) => {

@@ -1,4 +1,5 @@
 import { Specialty, NewsArticle, Testimonial, StepItem, AdvantageItem, TourLocation, Language } from '../types';
+import { getAssetUrl } from '../utils/assets';
 
 export const COLLEGE_INFO = {
   name: 'Евразийский высший колледж экономики, бизнеса и права (EKEB)',
@@ -539,7 +540,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/student_drozhevsky.png',
+    imageUrl: getAssetUrl('/images/ekeb/student_drozhevsky.png'),
     careerProspects: {
       ru: ['Главный бухгалтер', 'Бухгалтер по расчету заработной платы', 'Финансовый аналитик', 'Внутренний аудитор', 'Налоговый консультант'],
       kk: ['Бас бухгалтер', 'Еңбекақы есептеуші бухгалтер', 'Қаржы талдаушысы', 'Ішкі аудитор', 'Салық кеңесшісі'],
@@ -577,7 +578,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/ekeb_graduates.png',
+    imageUrl: getAssetUrl('/images/ekeb/ekeb_graduates.png'),
     careerProspects: {
       ru: ['Менеджер по государственным закупкам', 'Специалист тендерного отдела', 'Специалист по закупкам квазигоссектора', 'Комплаенс-контролер'],
       kk: ['Мемлекеттік сатып алу менеджері', 'Тендер бөлімінің маманы', 'Квазимемлекеттік сектордағы сатып алу маманы', 'Комплаенс-бақылаушы'],
@@ -615,7 +616,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/study_center.png',
+    imageUrl: getAssetUrl('/images/ekeb/study_center.png'),
     careerProspects: {
       ru: ['Эксперт-оценщик в оценочной компании', 'Специалист залогового отдела банка', 'Кадастровый инженер', 'Эксперт страховой компании', 'Риелтор-аналитик'],
       kk: ['Бағалау компаниясындағы сарапшы-бағалаушы', 'Банктің кепіл бөлімінің маманы', 'Кадастрлық инженер', 'Сақтандыру сарапшысы', 'Риелтор-талдаушы'],
@@ -653,7 +654,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/building_main.jpg',
+    imageUrl: getAssetUrl('/images/ekeb/building_main.jpg'),
     careerProspects: {
       ru: ['Юрисконсульт коммерческих предприятий', 'Помощник адвоката / нотариуса', 'Специалист органов юстиции и ЦОН', 'Специалист кадровой и юридической службы'],
       kk: ['Кәсіпорындардың заң кеңесшісі', 'Адвокат / нотариус көмекшісі', 'Әділет органдары мен ХҚКО маманы', 'Кадр және заң бөлімінің маманы'],
@@ -691,7 +692,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/incubator.png',
+    imageUrl: getAssetUrl('/images/ekeb/incubator.png'),
     careerProspects: {
       ru: ['Full-stack / Frontend / Backend разработчик', '1С-программист', 'Разработчик мобильных приложений', 'Администратор баз данных', 'Инженер-программист'],
       kk: ['Full-stack / Frontend / Backend әзірлеуші', '1С-бағдарламашы', 'Мобильді қосымшалар әзірлеушісі', 'Деректер қорының әкімшісі', 'Инженер-бағдарламашы'],
@@ -729,7 +730,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/students_event.jpg',
+    imageUrl: getAssetUrl('/images/ekeb/ekeb_students_group.png'),
     careerProspects: {
       ru: ['QA Engineer (ручное и автотестирование)', 'Специалист службы технической поддержки ПО', 'Релиз-инженер', 'Тестировщик мобильных приложений'],
       kk: ['QA инженер (қолмен және автотестілеу)', 'БҚ техникалық қолдау маманы', 'Релиз-инженер', 'Мобильді қосымшаларды тестілеуші'],
@@ -767,7 +768,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/student_zakharova.png',
+    imageUrl: getAssetUrl('/images/ekeb/student_zakharova.png'),
     careerProspects: {
       ru: ['Системный администратор', 'Сетевой инженер', 'Специалист службы технической поддержки IT', 'Инженер по серверам и виртуализации'],
       kk: ['Жүйелік әкімші', 'Желілік инженер', 'IT техникалық қолдау маманы', 'Серверлер және виртуализация инженері'],
@@ -805,7 +806,7 @@ export const SPECIALTIES: Specialty[] = [
     },
     isDualEducation: true,
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/building_main.jpg',
+    imageUrl: getAssetUrl('/images/ekeb/building_main.jpg'),
     careerProspects: {
       ru: ['Специалист по информационной безопасности', 'Аналитик инцидентов кибербезопасности (SOC)', 'Администратор средств защиты информации', 'Специалист по защите персональных данных'],
       kk: ['Ақпараттық қауіпсіздік маманы', 'Киберқауіпсіздік оқиғаларының талдаушысы (SOC)', 'Ақпаратты қорғау құралдарының әкімшісі', 'Деректерді қорғау маманы'],
@@ -944,7 +945,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'EKEB celebrated the official ribbon cutting for its brand new sports education complex with local Olympic federations and regional sports leaders.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/students_event.jpg',
+    imageUrl: getAssetUrl('/images/ekeb/ekeb_students_group.png'),
     tag: 'Спортфак',
   },
   {
@@ -972,7 +973,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'EKEB continues fostering international academic exchange, publishing collaborative research and visiting peer institutions across Central Asia.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/ekeb_graduates.png',
+    imageUrl: getAssetUrl('/images/ekeb/ekeb_graduates.png'),
     tag: 'Форумы',
   },
   {
@@ -1000,7 +1001,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'Y-PEER peer education fosters true youth leadership, empathy, and social responsibility across our vibrant campus community.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/ekeb_students_group.png',
+    imageUrl: getAssetUrl('/images/ekeb/ekeb_students_group.png'),
     tag: 'Y-PEER',
   },
   {
@@ -1028,7 +1029,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'Non-resident students feel right at home with comfortable amenities, mentor guidance, community movie nights, and language clubs.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/study_center.png',
+    imageUrl: getAssetUrl('/images/ekeb/study_center.png'),
     tag: 'Student Home',
   },
   {
@@ -1056,7 +1057,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'WorldSkills medalists receive corporate job invitations directly on the awards stage from industry sponsors.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/worldskills.png',
+    imageUrl: getAssetUrl('/images/ekeb/worldskills.png'),
     tag: 'WorldSkills',
   },
   {
@@ -1084,7 +1085,7 @@ export const NEWS_ITEMS: NewsArticle[] = [
       en: 'Our incubator equips students with venture pitching, prototype testing, customer validation, and financial modeling skills.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/incubator.png',
+    imageUrl: getAssetUrl('/images/ekeb/incubator.png'),
     tag: 'Инкубатор',
   },
 ];
@@ -1115,7 +1116,7 @@ export const TESTIMONIALS: Testimonial[] = [
     },
     rating: 5,
     avatarPlaceholder: '',
-    avatarUrl: '/images/ekeb/student_drozhevsky.png',
+    avatarUrl: getAssetUrl('/images/ekeb/student_drozhevsky.png'),
   },
   {
     id: 'zakharova-yana',
@@ -1142,7 +1143,7 @@ export const TESTIMONIALS: Testimonial[] = [
     },
     rating: 5,
     avatarPlaceholder: '',
-    avatarUrl: '/images/ekeb/student_zakharova.png',
+    avatarUrl: getAssetUrl('/images/ekeb/student_zakharova.png'),
   },
   {
     id: 'ekeb-leaders',
@@ -1169,7 +1170,7 @@ export const TESTIMONIALS: Testimonial[] = [
     },
     rating: 5,
     avatarPlaceholder: '',
-    avatarUrl: '/images/ekeb/student_3.png',
+    avatarUrl: getAssetUrl('/images/ekeb/student_3.png'),
   },
   {
     id: 'ekeb-incubator-residents',
@@ -1196,7 +1197,7 @@ export const TESTIMONIALS: Testimonial[] = [
     },
     rating: 5,
     avatarPlaceholder: '',
-    avatarUrl: '/images/ekeb/student_4.png',
+    avatarUrl: getAssetUrl('/images/ekeb/student_4.png'),
   },
 ];
 
@@ -1214,7 +1215,7 @@ export const TOUR_LOCATIONS: TourLocation[] = [
       en: 'Official academic campus of EKEB College at 105 Maresyev Street, Aktobe. Central location and modern infrastructure.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/building_main.jpg',
+    imageUrl: getAssetUrl('/images/ekeb/building_main.jpg'),
     features: {
       ru: ['г. Актобе, ул. Маресьева, 105', 'Парковка для студентов и гостей', 'Озелененная благоустроенная территория', 'Видеонаблюдение и безопасность'],
       kk: ['Ақтөбе қ., Маресьев к-сі, 105', 'Студенттерге арналған автотұрақ', 'Көгалдандырылған аумақ', 'Бейнебақылау және қауіпсіздік'],
@@ -1234,7 +1235,7 @@ export const TOUR_LOCATIONS: TourLocation[] = [
       en: 'Bright, modern lecture halls with interactive displays where students master theory and practice under experienced instructors.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/study_center.png',
+    imageUrl: getAssetUrl('/images/ekeb/study_center.png'),
     features: {
       ru: ['Интерактивные смарт-панели', 'Удобные эргономичные места', 'Мультимедийные лекционные залы', 'Бесшовный Wi-Fi для учебы'],
       kk: ['Интерактивті смарт-панельдер', 'Ыңғайлы оқу орындары', 'Мультимедиялық дәрісханалар', 'Оқуға арналған Wi-Fi желісі'],
@@ -1254,7 +1255,7 @@ export const TOUR_LOCATIONS: TourLocation[] = [
       en: 'Innovative hub for ideation, venture pitch practice, student hackathons, and meetings with prominent regional entrepreneurs.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/incubator.png',
+    imageUrl: getAssetUrl('/images/ekeb/incubator.png'),
     features: {
       ru: ['Коворкинг-пространство', 'Зона защиты стартапов', 'Менторская поддержка бизнеса', 'Командные проектные зоны'],
       kk: ['Коворкинг кеңістігі', 'Стартаптарды қорғау аймағы', 'Тәлімгерлік бизнес-қолдау', 'Командалық жобалық аймақтар'],
@@ -1274,7 +1275,7 @@ export const TOUR_LOCATIONS: TourLocation[] = [
       en: 'Dedicated training ground for WorldSkills Kazakhstan professional championships and hands-on skill development.',
     },
     imagePlaceholder: '',
-    imageUrl: '/images/ekeb/worldskills.png',
+    imageUrl: getAssetUrl('/images/ekeb/worldskills.png'),
     features: {
       ru: ['Стандарты WorldSkills', 'Современное оборудование', 'Сертифицированные эксперты-тренеры', 'Практическая отработка кейсов'],
       kk: ['WorldSkills стандарттары', 'Заманауи құрал-жабдықтар', 'Сертификатталған сарапшылар', 'Нақты кейстермен жұмыс'],
